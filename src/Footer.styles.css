@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid var(--card-border);
+  margin-top: 3rem;
+  transition: border-top-color 0.3s ease;
+}
+
+.footer-text {
+  color: var(--footer-text);
+  transition: color 0.3s ease;
+}

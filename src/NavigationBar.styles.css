@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #000;
+}
+
+#gradient-brand-text {
+  background-image: linear-gradient(to right, #2dd4bf, #a855f7);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text;
+  color: transparent; /* Make the text transparent to show the background */
+}
+
+/* Brand */
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.nav-link {
+  color: var(--secondary-text);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--text-color);
+}
+
+.theme-toggle-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--card-border);
+  border-radius: 9999px;
+  font-weight: 700;
+  color: var(--button-text-color);
+  background-image: linear-gradient(to right, #2dd4bf, #a855f7);
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* .theme-toggle-button:hover {
+  color: var(--text-color);
+} */
+
+/* Dark mode button
+body.dark-mode .theme-toggle-button {
+  background: #f0f0f0;
+  color: #000;
+}
+
+body.dark-mode .theme-toggle-button:hover {
+  background: #ddd;
+}
+
+body.light-mode .theme-toggle-button {
+  background: #f0f0f0;
+  color: #000;
+}
+
+body.light-mode .theme-toggle-button:hover {
+  background: #ddd;
+  color: #000;
+} */
+
+body.dark-mode .theme-toggle-button {
+  color: #000;
+}
+
+body.dark-mode .theme-toggle-button:hover {
+  color: #fff;
+}
+
+body.light-mode .theme-toggle-button {
+  color: #fff;
+  border: 1px solid #000;
+}
+
+body.light-mode .theme-toggle-button:hover {
+  color: #000;
+}

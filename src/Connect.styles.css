@@ -1,0 +1,31 @@
+.contact-section {
+  width: 100%;
+  max-width: 64rem; /* 5xl */
+  text-align: center;
+  padding: 4rem 1rem;
+  margin: auto;
+}
+
+.contact-text {
+  font-size: 1.125rem;
+  color: var(--secondary-text);
+  margin-bottom: 2rem;
+  transition: color 0.3s ease;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: var(--button-text-color);
+  background-image: linear-gradient(to right, #a855f7, #2dd4bf);
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--button-hover-shadow-alt);
+}

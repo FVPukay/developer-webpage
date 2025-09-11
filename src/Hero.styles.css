@@ -1,0 +1,97 @@
+#hero-glow-text {
+  background-image: linear-gradient(to right, #2dd4bf, #a855f7);
+  -webkit-background-clip: text; /* For WebKit browsers */
+  background-clip: text;
+  color: transparent; /* Make the text transparent to show the background */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  max-width: 56rem; /* 4xl */
+  margin: auto;
+  margin-top: 15rem; /* Default margin for mobile, taller header */
+}
+
+@media (min-width: 640px) {
+  .hero {
+    margin-top: 10rem; /* Header is shorter on tablet/desktop */
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    margin-top: 12rem; /* Comfortable spacing on tablets+ */
+    padding-bottom: 6rem;
+  }
+}
+
+.hero-heading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+.br-block {
+  display: none; /* Hide <br> by default */
+}
+
+@media (min-width: 768px) {
+  .hero-heading {
+    font-size: 3.75rem;
+  }
+  .br-block {
+    display: block; /* Show <br> on larger screens */
+  }
+}
+
+.hero-glow-text {
+  background-image: linear-gradient(to right, #2dd4bf, #a855f7);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: var(--secondary-text);
+  margin-bottom: 2rem;
+  max-width: 32rem; /* xl */
+  margin-left: auto;
+  margin-right: auto;
+  transition: color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  color: var(--button-text-color);
+  background-image: linear-gradient(to right, #2dd4bf, #a855f7);
+  transition: transform 300ms, box-shadow 300ms;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--button-hover-shadow);
+}
+
+section {
+  margin: 0;
+}
