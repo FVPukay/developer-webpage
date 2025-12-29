@@ -35,6 +35,7 @@
   line-height: 1.6;
   color: var(--secondary-text);
   transition: color 0.3s ease;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {

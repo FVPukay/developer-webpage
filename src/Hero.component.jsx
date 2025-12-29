@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <section className="hero">
       <h1 className="hero-heading">
-        Full Stack Developer <br className="br-block" />
-        <span id="hero-glow-text">& Prototyper</span>
+        Backend Support Engineer <br className="br-block" />
+        <span id="hero-glow-text">& Problem Solver</span>
       </h1>
       <p className="hero-subtitle">
-        I rapidly build prototypes with JavaScript and React —
-        shipping products early to customers.
+        I bridge the gap between engineering and users, debug complex
+        infrastructure issues, and deliver solutions with <span className="bold-text">JavaScript, TypeScript, React, Node.js, and Python</span>.
       </p>
       <Container className="d-flex justify-content-center">
       <a href="#projects" className="cta-button">
