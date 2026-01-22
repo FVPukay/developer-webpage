@@ -36,7 +36,10 @@ const Project = () => {
       <div className="project-card">
         <h3 className="project-title">Pomodoro Timer & Task Tracker</h3>
         <p className="project-description">
-          Currently prototyping a productivity application built with <span className="bold-text">Next.js, React, TypeScript, and Tailwind CSS</span>.
+          Now live <a target="_blank" href="https://pomodoro-task-tracker-sigma.vercel.app/">here</a>.  Try it out!
+        </p>
+        <p className="project-description">
+          Built using <span className="bold-text">Next.js, React, TypeScript, and Tailwind CSS</span>.
         </p>
         <p className="project-description">
           Features a polished Pomodoro timer, hierarchical task management with subtasks, and
@@ -45,6 +48,17 @@ const Project = () => {
         <p className="project-description">
           Demonstrates modern <span className="bold-text">React patterns, TypeScript type safety, component architecture</span>, and <span className="bold-text"> building developer tools that solve real workflow challenges</span>.
         </p>
+        <div className="project-buttons">
+          <a target="_blank" href="https://pomodoro-task-tracker-sigma.vercel.app/" className="project-button">
+            Live App
+          </a>
+          <a target="_blank" href="https://github.com/FVPukay/pomodoro-task-tracker" className="project-button">
+            GitHub
+          </a>
+          <a target="_blank" href="https://www.youtube.com/watch?v=oKsvRzVoc18" className="project-button">
+            YouTube Video
+          </a>
+        </div>
       </div>
     </section>
   );

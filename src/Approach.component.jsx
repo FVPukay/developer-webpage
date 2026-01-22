@@ -6,19 +6,22 @@ const Approach = () => {
       <h2 className="section-heading">My Approach</h2>
       <div className="approach-card">
         <p className="approach-text">
-          I believe the best support engineering doesn't just answer questions—it prevents them from recurring.
+          It's all about users.
         </p>
         <p className="approach-text">
-          As a <span className="bold-text">Backend Support Engineer</span>, I debug complex
-          infrastructure issues down to their root causes, work with the right people to implement lasting
-          solutions, and communicate effectively so that both technical and non-technical stakeholders can understand.
+          How does the software I am designing and writing make the experience better for my product's end-users?  Engineering for the sake of engineering is not engineering.  Building software that delights users is.
         </p>
         <p className="approach-text">
-          I specialize in productivity and developer tooling, where my <span className="bold-text">JavaScript, TypeScript, and React</span> expertise allows me to build solutions that scale the support.
+          As a <span className="bold-text">Backend AI Engineer</span>, I develop software wholistically
+          thinking about the entire system, not just the happy path, but the various edge cases, the pros and cons
+          between approaches, because it's rare when there is a clear-cut winner.
         </p>
         <p className="approach-text">
-          Whether it's the typical day-by-day support, system design,
-          or <span className="bold-text">leveraging AI aggressively while staying accountable for the software developed</span>, I focus on generating meaningful impact.
+          I specialize in productivity and developer tooling, where my <span className="bold-text">JavaScript, TypeScript, and React</span> expertise allows me to build solutions that scale.
+        </p>
+        <p className="approach-text">
+          <span className="bold-text">I leverage AI aggressively while staying accountable for the software developed </span>
+          and I focus on code quality which isn't static but varies from one company, repo, or situation to another.
         </p>
       </div>
     </section>
