@@ -55,7 +55,7 @@ const Project = () => {
           <a target="_blank" href="https://github.com/FVPukay/pomodoro-task-tracker" className="project-button">
             GitHub
           </a>
-          <a target="_blank" href="https://www.youtube.com/watch?v=oKsvRzVoc18" className="project-button">
+          <a target="_blank" href="https://youtu.be/LdXyPhAVwng" className="project-button">
             YouTube Video
           </a>
         </div>
