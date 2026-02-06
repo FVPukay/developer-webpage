@@ -12,7 +12,7 @@ const Project = () => {
       <div className="project-card">
         <h3 className="project-title">URL Pattern Tab Manager Chrome Extension</h3>
         <p className="project-description">
-          A Chrome extension that demonstrates deep <span className="bold-text">API integration</span> and <span className="bold-text">JavaScript pattern matching</span>.
+          A Chrome extension demonstrating deep API integration and JavaScript pattern matching.
         </p>
         <p className="project-description">
           Solves automatic tab organization through flexible URL patterns (wildcards, domains, paths),
@@ -39,14 +39,13 @@ const Project = () => {
           Now live <a target="_blank" href="https://pomodoro-task-tracker-sigma.vercel.app/">here</a>.  Try it out!
         </p>
         <p className="project-description">
-          Built using <span className="bold-text">Next.js, React, TypeScript, and Tailwind CSS</span>.
+          Built with Next.js, React, TypeScript, and Tailwind CSS.
         </p>
         <p className="project-description">
-          Features a polished Pomodoro timer, hierarchical task management with subtasks, and
-          an integrated priority matrix.
+          Features a Pomodoro timer, hierarchical task management with subtasks, and an integrated priority matrix.
         </p>
         <p className="project-description">
-          Demonstrates modern <span className="bold-text">React patterns, TypeScript type safety, component architecture</span>, and <span className="bold-text"> building developer tools that solve real workflow challenges</span>.
+          Demonstrates modern React patterns, TypeScript type safety, and component architecture for developer tools.
         </p>
         <div className="project-buttons">
           <a target="_blank" href="https://pomodoro-task-tracker-sigma.vercel.app/" className="project-button">
